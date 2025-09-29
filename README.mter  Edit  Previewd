@@ -1,35 +1,33 @@
 # 🚀 Monsef – AI-Powered Saudi Family Law Chatbot
 
+![Monsef Logo](https://your-image-link.com/logo.png)
+
 **Monsef** is an AI-powered chatbot designed to help users understand and get guidance on Saudi family law, including marriage, divorce, custody, visitation, Khula, annulment, and maintenance.  
 
-This project was developed as a **graduation project** to make legal advice more accessible, clear, and accurate in Arabic.  
+Developed as a **graduation project**, Monsef aims to make legal advice **accessible, clear, and accurate** in Arabic.  
 
 ---
 
-## ✨ Key Features
+## Key Features ✨
 
-- 🧠 **Advanced AI:** Uses LLMs with RAG for accurate answers.  
-- 📄 **Multi-source processing:** CSV files, legal case CSV, and PDF documents.  
-- 📚 **Question classification:** Marriage, divorce, custody, visitation, Khula, annulment, maintenance.  
-- 📝 **User intent classification:** Greeting, legal question, clarification request, legal intent, or out-of-scope.  
-- 💾 **Conversation management:** Save and retrieve chat history via Firebase Firestore.  
-
----
-
-## 🛠 Tech Stack
-
-- **Python 3.10+**  
-- **OpenAI GPT-4o / GPT Embeddings**  
-- **LangChain & LangChain Community**  
-- **FAISS** for storing and retrieving embeddings  
-- **Sentence Transformers / CrossEncoder** for reranking results  
-- **pdfplumber** for extracting text from PDFs  
-- **Firebase Firestore** for conversation management  
-- **Flask** for building the API  
+- **🧠 Advanced AI**: Uses LLMs with RAG for accurate answers.  
+- **📄 Multi-source processing**: CSV files, legal case CSV, and PDF documents.  
+- **📚 Question classification**: Marriage, divorce, custody, visitation, Khula, annulment, maintenance.  
+- **📝 User intent classification**: Greeting, legal question, clarification request, legal intent, or out-of-scope.  
+- **💾 Conversation management**: Save and retrieve chat history via Firebase Firestore.  
 
 ---
 
-## ⚡ How it Works
+## Tech Stack 🛠️
+
+- **Backend**: Python 3.10+, Flask  
+- **AI Models**: OpenAI GPT-4o / GPT Embeddings  
+- **Libraries**: LangChain, FAISS, Sentence Transformers / CrossEncoder, pdfplumber  
+- **Database**: Firebase Firestore  
+
+---
+
+## How it Works ⚡
 
 ```mermaid
 flowchart LR
