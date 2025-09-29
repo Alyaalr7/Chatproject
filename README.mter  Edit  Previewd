@@ -1,0 +1,42 @@
+# 🚀 Monsef – AI-Powered Saudi Family Law Chatbot
+
+**Monsef** is an AI-powered chatbot designed to help users understand and get guidance on Saudi family law, including marriage, divorce, custody, visitation, Khula, annulment, and maintenance.  
+
+This project was developed as a **graduation project** to make legal advice more accessible, clear, and accurate in Arabic.  
+
+---
+
+## ✨ Key Features
+
+- 🧠 **Advanced AI:** Uses LLMs with RAG for accurate answers.  
+- 📄 **Multi-source processing:** CSV files, legal case CSV, and PDF documents.  
+- 📚 **Question classification:** Marriage, divorce, custody, visitation, Khula, annulment, maintenance.  
+- 📝 **User intent classification:** Greeting, legal question, clarification request, legal intent, or out-of-scope.  
+- 💾 **Conversation management:** Save and retrieve chat history via Firebase Firestore.  
+
+---
+
+## 🛠 Tech Stack
+
+- **Python 3.10+**  
+- **OpenAI GPT-4o / GPT Embeddings**  
+- **LangChain & LangChain Community**  
+- **FAISS** for storing and retrieving embeddings  
+- **Sentence Transformers / CrossEncoder** for reranking results  
+- **pdfplumber** for extracting text from PDFs  
+- **Firebase Firestore** for conversation management  
+- **Flask** for building the API  
+
+---
+
+## ⚡ How it Works
+
+```mermaid
+flowchart LR
+    A[CSV & Legal Cases] --> B[Text Processing]
+    C[PDF Files] --> B
+    B --> D[Embeddings (OpenAI)]
+    D --> E[FAISS Index]
+    E --> F[Retrieval + Reranking (CrossEncoder)]
+    F --> G[GPT-4o Response Generation]
+    G --> H[Conversation Management (Firebase)]
