@@ -38,7 +38,6 @@ Developed as a **graduation project**, Monsef aims to make legal advice **access
 
 🧩**Important Notes**  
 - The bot focuses only on **family law**; inheritance or administrative matters are out of scope.  
-- Answers are in clear **Modern Standard Arabic**, strictly following Saudi law.
 
   
 ---
