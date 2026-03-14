@@ -1,6 +1,6 @@
 # 🚀 Monsef – AI-Powered Saudi Family Law Chatbot
 
-
+![Screenshot](https://github.com/Alyaalr7/Chatproject/blob/c827975863459afa251cd09114090869accafc59/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202025-05-08%20185540.png?raw=true)
 **Monsef** is an AI-powered chatbot designed to help users understand and get guidance on Saudi family law, including marriage, divorce, custody, visitation, Khula, annulment, and maintenance.  
 
 Developed as a **graduation project**, Monsef aims to make legal advice **accessible, clear, and accurate** in Arabic.  
