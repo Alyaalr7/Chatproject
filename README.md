@@ -3,7 +3,9 @@
 <p align="center">
   <img src="https://github.com/Alyaalr7/Chatproject/blob/c827975863459afa251cd09114090869accafc59/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202025-05-08%20185540.png?raw=true" width="300"/>
 </p>
-
+<p align="center">
+  <img src="https://github.com/Alyaalr7/Chatproject/blob/00d11162a2819fe78ebfb44c7c7f3b182f540526/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202025-05-11%20214936.png" width="300"/>
+</p>
 <p align="center">
 AI-powered chatbot for Saudi Family Law guidance
 </p>
